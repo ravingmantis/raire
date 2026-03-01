@@ -1,3 +1,45 @@
+# Version 0.4.0
+
+## Release Notes
+
+- Parenthesized expressions now tightly hug (#248).
+
+- We now allow up to 2 lines between top-level elements of a file. This makes it possible to separate long scripts into visually distinct sections (#40).
+
+- Unary formulas (i.e. anonymous functions) like `~ .x + 1` now add a space between the `~` and the right-hand side, unless the right-hand side is very simple, like `~foo` or `~1` (#235).
+
+- Semicolons at the very start or very end of a file no longer cause the parser to panic (#238).
+
+- Assigned pipelines no longer double-indent when a persistent line break is used (#220).
+
+- Hugging calls like:
+
+  ```r
+  list(c(
+    1,
+    2
+  ))
+  ```
+
+  are no longer fully expanded (#21).
+
+- Assigned pipelines no longer double-indent (#220).
+
+- Added support for special "skip" comments.
+
+  Use `# fmt: skip` to avoid formatting the following node and all of its children. In this case, the `tribble()` call and all of its arguments (#52).
+
+  ```r
+  # fmt: skip
+  tribble(
+    ~a, ~b,
+     1,  2
+  )
+  ```
+
+  Use `# fmt: skip file` to avoid formatting an entire file. This comment must appear at the top of the file before any non-comment R code (#219).
+
+
 # Version 0.3.0
 
 ## Release Notes
