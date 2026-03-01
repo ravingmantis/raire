@@ -1,6 +1,6 @@
 Package: raire
 Title: AIR formatter bundled into an unofficial R package
-Version: 0.4.0
+Version: 0.4.1
 Authors@R: c(
   person("Jamie", "Lentin", email="lentinj@shuttlethread.com",role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5727-2996")),
   person("Posit Software, PBC", role = c("cph"), comment = "Authors of air-formatter"))

@@ -1,3 +1,10 @@
+# Version 0.4.1
+
+## Release Notes
+
+- Language server configuration variables are now fully optional, avoiding issues in editors like Zed or Helix (#246).
+
+
 # Version 0.4.0
 
 ## Release Notes
