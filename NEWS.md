@@ -1,3 +1,10 @@
+# Version 0.7.1
+
+## Release Notes
+
+- We now recommend using [Tombi](https://github.com/tombi-toml/tombi) for `air.toml` autocompletion and validation instead of Even Better TOML. Tombi is easily installable from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=tombi-toml.tombi), the [OpenVSX Marketplace](https://open-vsx.org/namespace/tombi-toml), as a [Zed extension](https://zed.dev/extensions?query=tombi&filter=language-servers), or using some other [supported installation method](https://tombi-toml.github.io/tombi/docs/installation). We've improved on our `air.toml` configuration documentation to help tombi provide the best `air.toml` editing experience (#371).
+
+
 # Version 0.7.0
 
 ## Release Notes
