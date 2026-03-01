@@ -1,3 +1,32 @@
+# Version 0.2.0
+
+## Release Notes
+
+- Initial public release, yay!
+
+  Note that we first released 0.2.0 as 1.0.0. If you have installed the VS Code extension or the CLI program as 1.0.0, please uninstall it.
+
+- Fixed an issue where the language server failed to start due to logging
+  being initialized twice.
+
+- Added a synchronization mechanism between IDE and Air settings. See documentation for more information https://posit-dev.github.io/air/configuration.html#settings-synchronization.
+
+- Renamed `ignore-magic-line-break` to `persistent-line-breaks` (#177).
+
+- In the CLI, errors and warnings are now written to stderr. This allows you to
+  see issues that occur during `air format`, such as parse errors or file not
+  found errors (#155).
+
+- New global CLI option `--log-level` to control the log level. The default is
+  `warn` (#155).
+
+- New global CLI option `--no-color` to disable colored output (#155).
+
+- Air now supports `.air.toml` files in addition to `air.toml` files. If both
+  are in the same directory, `air.toml` is preferred, but we don't recommend
+  doing that (#152).
+
+
 # Version 0.1.2
 
 ## Release Notes
