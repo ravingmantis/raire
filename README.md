@@ -8,10 +8,6 @@ It's a stop-gap measure until there's an official R package to use.
 
 For progress on this front, see https://github.com/posit-dev/air/issues/48
 
-## Prerequisites
-
-Your system needs to have [git LFS](https://git-lfs.com/) installed & configured.
-
 ## Installation
 
 The package can be installed with [remotes](https://cran.r-project.org/package=remotes):
