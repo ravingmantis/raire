@@ -1,3 +1,23 @@
+# Version 0.8.2
+
+## Release Notes
+
+- Air is now distributed on PyPI as `air-formatter` (#467).
+
+  This allows air to be invoked via uv:
+
+  ```bash
+  # Global install of `air`
+  uv tool install air-formatter
+  air format .
+
+  # One-off run
+  uvx --from air-formatter air format .
+  ```
+
+- Air is now code-signed on Windows (#461).
+
+
 # Version 0.8.1
 
 ## Release Notes
