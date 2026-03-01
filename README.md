@@ -1,9 +1,8 @@
 # raire: Air formatter bundled into an unofficial R package
 
-This is the [Air source code formatter](https://github.com/posit-dev/air) bundled into the R package,
-along with a wrapper to use from R.
+This package installs the [Air source code formatter](https://github.com/posit-dev/air), along with a wrapper to use from R.
 
-I'm nothing to do with Air itself, I've just stuffed the provided binaries into an R package.
+I'm nothing to do with Air itself, I've just stuffed the pre-built binaries into an R package.
 It's a stop-gap measure until there's an official R package to use.
 
 For progress on this front, see https://github.com/posit-dev/air/issues/48
