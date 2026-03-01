@@ -1,3 +1,12 @@
+# Version 0.6.0
+
+## Release Notes
+
+- Added documentation on using Air's GitHub Action, [setup-air](https://github.com/posit-dev/setup-air).
+
+- Added documentation on using Air in [Zed](https://github.com/zed-industries/zed).
+
+
 # Version 0.5.0
 
 ## Release Notes
