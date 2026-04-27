@@ -52,4 +52,4 @@ The other (slim) possibility is your architecture isn't supported by the [offici
 The [update.py](update.py) script generates new commits for each Air release.
 Updating this package should be a case of re-running the script.
 
-If there is sufficient interest, this could become an automatic Github action.
+This is triggered once a week by [.github/workflows/update.yml](the update.yml workflow).
