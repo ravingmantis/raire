@@ -1,3 +1,28 @@
+# Version 0.10.0
+
+## Release Notes
+
+- New `assignment-style` option to enforce a preferred assignment operator, with the following values:
+
+  - `"arrow"`: Use `<-`. This is the default, aligning Air further with the [tidyverse style guide](https://style.tidyverse.org/syntax.html#assignment-1).
+
+  - `"equal"`: Use `=`.
+
+  - `"preserve"`: Assignment operators are preserved as is.
+
+  Note that prior to this option, Air's behavior was implicitly `"preserve"`. Set `"preserve"` or `"equal"` directly if you prefer either of those behaviors (#502).
+
+- Fixed an issue where `# fmt: skip file` in a file with CRLF line endings would result in `\r\n` line endings getting converted to `\r\r\n` (#498).
+
+- Updated bundled tree-sitter-r, which comes with a few small fixes:
+
+  - Hexadecimal constants with decimals are no longer parsed as two separate values (#495).
+
+  - `.{digit}` (like `.1`) is now correctly parsed as a double rather than as an identifier. This means that things like `function(.1 = 1) {}`, where `.1` is expected to be an identifier but not a double, now correctly fails to parse (#496).
+
+  - `else` is no longer consumed as eagerly in some special cases (#499).
+
+
 # Version 0.9.0
 
 ## Release Notes
