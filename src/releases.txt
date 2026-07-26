@@ -1,7 +1,7 @@
 name	url	digest
-air-aarch64-apple-darwin.tar.gz	https://github.com/posit-dev/air/releases/download/0.10.0/air-aarch64-apple-darwin.tar.gz	sha256:c5dafbaea58f786f87d6c61d2b67267186e52ef6793da39d7e60c247f84b42ef
-air-aarch64-pc-windows-msvc.zip	https://github.com/posit-dev/air/releases/download/0.10.0/air-aarch64-pc-windows-msvc.zip	sha256:1a33165ce09ef82fa4861591e46aa98294aaa995cf712acf63115e764a24be0e
-air-aarch64-unknown-linux-gnu.tar.gz	https://github.com/posit-dev/air/releases/download/0.10.0/air-aarch64-unknown-linux-gnu.tar.gz	sha256:4873b28b29e242061d4604d5c6d004d0902cc7a0b59fa79e59b521bfc44b13e8
-air-x86_64-apple-darwin.tar.gz	https://github.com/posit-dev/air/releases/download/0.10.0/air-x86_64-apple-darwin.tar.gz	sha256:1e9bb76339e4b18962849c3191c8b26178b2e9ea20a113bf1b016980badc4213
-air-x86_64-pc-windows-msvc.zip	https://github.com/posit-dev/air/releases/download/0.10.0/air-x86_64-pc-windows-msvc.zip	sha256:73dae3fb0442fb645df44073b8ba03c9145f4307fccab38225dde95de4d9c860
-air-x86_64-unknown-linux-gnu.tar.gz	https://github.com/posit-dev/air/releases/download/0.10.0/air-x86_64-unknown-linux-gnu.tar.gz	sha256:abfb6db0f5f45701a17b9c49d5323eecde6586cba909bcd7392d938716821493
+air-aarch64-apple-darwin.tar.gz	https://github.com/posit-dev/air/releases/download/0.11.0/air-aarch64-apple-darwin.tar.gz	sha256:be888cc1c16eff3a93df78c4af12a94b8fafb9db2f42aa53b852fc6ce2fb5567
+air-aarch64-pc-windows-msvc.zip	https://github.com/posit-dev/air/releases/download/0.11.0/air-aarch64-pc-windows-msvc.zip	sha256:5f3e390502e5a086bbb46ae480cfdc0de9d64e8f5cb0e419c91ff5ba04738648
+air-aarch64-unknown-linux-gnu.tar.gz	https://github.com/posit-dev/air/releases/download/0.11.0/air-aarch64-unknown-linux-gnu.tar.gz	sha256:80208ebac7b3890598f4f06ffe4209b4adfb5d9de60282380690115d2da1d065
+air-x86_64-apple-darwin.tar.gz	https://github.com/posit-dev/air/releases/download/0.11.0/air-x86_64-apple-darwin.tar.gz	sha256:93dedcc81a1accde1748b88d0d6bc59481f0b989ff7dfc7a42abc96707c712f7
+air-x86_64-pc-windows-msvc.zip	https://github.com/posit-dev/air/releases/download/0.11.0/air-x86_64-pc-windows-msvc.zip	sha256:8b111f2400e7b9aaabbc9448424381c3969f03370d59124c4fbcb3d766dfc104
+air-x86_64-unknown-linux-gnu.tar.gz	https://github.com/posit-dev/air/releases/download/0.11.0/air-x86_64-unknown-linux-gnu.tar.gz	sha256:b6dd1446386a7e7c6981a049a164cb4950edaf004f675b0be1454923ae846593

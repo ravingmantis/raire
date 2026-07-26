@@ -1,3 +1,15 @@
+# Version 0.11.0
+
+## Release Notes
+
+- New support for a user level `air.toml`. This is used as a fallback instead of Air's default settings whenever there isn't a project level `air.toml` available (#309):
+
+  - On Linux and macOS, place it at `~/.config/air/air.toml`.
+  - On Windows, place it at `%APPDATA%\air\air.toml`.
+
+  For shared projects, we highly recommend using a version controlled project level `air.toml` instead to ensure that everyone shares the same settings.
+
+
 # Version 0.10.0
 
 ## Release Notes
